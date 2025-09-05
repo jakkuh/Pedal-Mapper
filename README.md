@@ -10,6 +10,7 @@ Stream Deck Pedal.
 There aren't a lot of dependencies, but what you do need are:
 - uinput Kernel Module (sudo modprobe uinput)
 - pipenv (sudo apt install pipenv)
+- libusb-1.0-0-dev, libudev-dev (sudo apt install python-dev libusb-1.0-0-dev libudev-dev)
 - Python
 - setuptools (https://pypi.org/project/setuptools/)
 - hidapi (https://pypi.org/project/hidapi/)
