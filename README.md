@@ -8,7 +8,10 @@ Stream Deck Pedal.
 ## Dependencies
 
 There aren't a lot of dependencies, but what you do need are:
+- uinput Kernel Module (sudo modprobe uinput)
+- pipenv (sudo apt install pipenv)
 - Python
+- setuptools (https://pypi.org/project/setuptools/)
 - hidapi (https://pypi.org/project/hidapi/)
 - evdev (https://pypi.org/project/evdev/)
 
